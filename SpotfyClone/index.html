@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel = "icon" href = "assets/logo.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity :1">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#" >HOME</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">search</a>
+                </div>
+            </div>
+                <div class="libary">
+                    <div class="options">
+                        <div class="lib-optons">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRutKOOcatsipRDCqjy1tAQod1nXOn5MYY-UmbOKcxmLz0hK2XMIqJhUoyc&s=10">
+                            <a href="#">Your library</a>
+                        </div>
+                        <div class="icons">
+                            <i class="fa-solid fa-plus" id="plus"></i>
+                            <i class="fa-solid fa-arrow-right" id="arrow"></i>
+                        </div>
+                    </div>
+                    <div class="lib-box">
+                        <div class="box1">
+                            <div class="box-p1">
+                               Create your first playlist 
+                            </div>
+                            <div class="box-p2">
+                               It's easy, we'll help you
+                            </div>
+                            <button class="badge">Create playlist</button>
+                        </div>
+                        
+                    </div>
+                    <div class="lib-box">
+                        <div class="box">
+                            <div class="box-p1">
+                               Let's find some podcasts to follow
+                            </div>
+                            <div class="box-p2">
+                               we'll keep you updated on new episodes
+                            </div>
+                            <button class="badge">browse podcasts</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       
+        <div class="maincontent">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="assets/backward_icon.png">
+                    <img src="assets/forward_icon.png" class="hide">
+                </div>
+                <div class="sticky-nav-options">
+                    <button class="badge nav-item hide">Explore Premium</button>
+                    <button class="badge nav-item dark-batch"><i class="fa-solid fa-download"></i>Install App</button>
+                    <i class="fa-regular fa-circle-user nav-item"></i>
+                </div>
+            </div>
+
+
+                <h2>Recently played</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="assets/card1img.jpeg" class = "card-img">
+                        <p class="card-title">Top 50 -Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="https://cdn-images.dzcdn.net/images/cover/39aa26b45fa69cd89b8ef1a46f106c43/0x1900-000000-80-0-0.jpg" class = "card-img">
+                        <p class="card-title">Top 50 -Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRypAupQfVH9dzCBg4WZuptyuaF3_YBf123FTB9bJ78-Q&s=10" class = "card-img">
+                        <p class="card-title">Top 50 -Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsY4q2t1Px-vOrmfl6ahlOp9yat4ItFU83dDTwtCqbDg&s=10" class = "card-img">
+                        <p class="card-title">Top 50 -Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz8ShBDqkvoI4mOl12-Pqsoo8SMHDUGwQhyCEJAh1zEw&s=10" class = "card-img">
+                        <p class="card-title">Top 50 -Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtO9Ryopc-_VM7MBnmenJmgPoXbQbGLK87U_PiDHcjPg&s" class = "card-img">
+                        <p class="card-title">Top 50 -Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks</p>
+                    </div>
+
+
+
+                </div>
+    
+                <h2>Trending now near you</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="assets/card2img.jpeg" class = "card-img">
+                        <p class="card-title">Top 50 -Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks</p>
+                    </div>
+                
+                    <div class="card">
+                        <img src="assets/card1img.jpeg" class = "card-img">
+                        <p class="card-title">Top 50 -Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="assets/card3img.jpeg" class = "card-img">
+                        <p class="card-title">Top 50 -Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3Xhl6XKKGvRBraMTcPcJRRkv0ARAP_5WPgazZYzhSXg&s" class = "card-img">
+                        <p class="card-title">Top 50 -Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks</p>
+                    </div>
+
+                     <div class="card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmuDb3b6T76JKYFc4I2U5dKooLfKmoxxixhviQYUS2hA&s=10" class = "card-img">
+                        <p class="card-title">Top 50 -Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks</p>
+                    </div>
+
+                </div>
+                <h2>Featured chats</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="assets/card5img.jpeg" class = "card-img">
+                        <p class="card-title">Top 50 -Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="assets/card4img.jpeg" class = "card-img">
+                        <p class="card-title">Top 50 -Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="assets/card6img.jpeg" class = "card-img">
+                        <p class="card-title">Top 50 -Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF33Pj_nLcfrcVvr21eqY3zCs0z3TuYxo4cgpaNuTXzQ&s=10" class = "card-img">
+                        <p class="card-title">Top 50 -Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTgSx77yWAILCuoQTHvCXq0r24LOUCl2ir2BBEnzw8yA&s" class = "card-img">
+                        <p class="card-title">Top 50 -Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks</p>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="line"></div>
+                </div>
+            </div>
+    
+        <div class="music-player">
+            <div class="album">
+
+                <div class="player">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtO9Ryopc-_VM7MBnmenJmgPoXbQbGLK87U_PiDHcjPg&s" class="imag" >
+                    <img src="assets/player_icon1.png" class="player-control-icon">
+                    <img src="assets/player_icon2.png" class="player-control-icon">
+                    <img src="assets/player_icon3.png" class="player-control-icon">
+                    <img src="assets/player_icon4.png" class="player-control-icon">
+                    <img src="assets/player_icon5.png" class="player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar">
+                    <span class = tot-time>33:33</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
